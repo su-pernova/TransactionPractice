@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: transaction-practice
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/test_db
+    username: root
+    password: 1234
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDB103Dialect
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
